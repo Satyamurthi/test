@@ -13,4 +13,4 @@ const ShinyText = ({ text, disabled = false, speed = 5, className = '' }) => {
   );
 };
 
-export default ShinyText;
+export default ShinyText; 
