@@ -1,12 +1,12 @@
-import React from 'react';
 import ShinyText from './components/ShinyText';
 
 function App() {
   return (
-    <div className="App" style={{ padding: '50px', fontSize: '2rem' }}>
-      <ShinyText text="Just some shiny text!" speed={3} className="custom-class" />
+    <div className="App" style={{ padding: '60px', fontSize: '2rem' }}>
+      <h1>Welcome to My React Page</h1>
+      <ShinyText text="This is shiny text from React!" speed={4} />
       <br />
-      <ShinyText text="Disabled shiny text" disabled={true} />
+      <ShinyText text="Disabled Shiny" disabled={true} />
     </div>
   );
 }
